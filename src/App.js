@@ -8,13 +8,15 @@ function App() {
   try{
     setValues(eval(values))
   }catch{
-    setValues("invalid expression")
+    setValues("ERROR")
   }
 
  }
   return (
     < >
       <div id='container'>
+      <h1 style={{textAlign:'center',fontSize:'30px',padding:'30px',fontWeight:'700'}}>CALCULATOR</h1>
+
         <div id="calculator">
          <form>
             <div className='display'>
